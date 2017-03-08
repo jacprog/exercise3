@@ -1,0 +1,83 @@
+/*
+    Name: Jacques Favre
+    Date: Feb 8 2017
+    Class: CGS1821.051
+    Assignment: Week 5
+    Language: HTML 5
+    Purpose: Basic form exercise 3
+
+    Includes:
+*/
+/*This is a reset that reduces browser inconsistencies */
+html, body, header, h1{
+    padding: 0;
+    margin: 0;
+
+} /* sides light gray */
+html {
+	background-color: #cccccc;
+	}
+
+
+body {
+  	font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 100%;
+  	width: 99%;
+	max-width: 960px;
+	margin: 0 auto; /* margin top and bottom 0, and automatic on side*/
+	background-color: #cce6ff;  /* to make all very light blue*/
+}
+
+header {
+    	background-color: #800000;
+}
+
+	header h1 {
+		font-size: 400%;
+		padding: .3em .75em;
+		color: white;
+	}
+
+/* the styles for the main area, 90% to have a margin on all small screens and all elements aligned*/
+	main {
+	clear: left;
+	width: 90%;
+
+	margin: 0 auto;
+
+}
+
+h1 {
+  text-align: center;
+  padding-top: 1em;
+}
+
+.wrapper{
+	margin-top:5%;
+	margin-left:auto;
+	margin-right:auto;
+	width:80%;
+	background-color:#FFFFFF;
+	border-radius: 5px;
+	padding:15px;
+}
+.centerMe{
+	text-align:center;
+
+}
+
+footer {
+    padding: .3em 0;
+    background-color: #800000;  /* to make footer almost black */
+	margin-top: 1em;
+	margin-bottom : 5px;
+	clear: right;
+}
+footer p {
+	  	text-align: center;
+		color: white;
+}
+footer p a {
+	    	text-decoration: none;
+	    	color: white;
+}
